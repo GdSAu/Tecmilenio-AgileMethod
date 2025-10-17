@@ -1,2 +1,2 @@
-\# Aquí va la descripción de mi proyecto
+# Aquí va la descripción de mi proyecto
 
