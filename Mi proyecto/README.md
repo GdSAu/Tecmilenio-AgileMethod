@@ -10,11 +10,13 @@ Proceso de Pago: Generación de órdenes en pagos.php
 Referencia de Pago: Descarga de recibo PDF en referencia.php
 Recuperación de Contraseña: Sistema de tres pasos en recuperacion.php
 Perfil de Usuario: Panel personal en perfil.php
+
 Para Empleados:
 Panel de Empleados: Selección de rol (Caja/Cocina) en perfil_empleado.php
 Gestión de Pedidos: Vista en pedidos.php con cambio de estado
 Entregas: Lista de pedidos listos en entrega.php
 Cambio de Estado: Transiciones En Preparación → Listo → Entregado en cambiar_estado.php
+
 #🗄️ Base de Datos
 usuarios_db: Tabla usuarios (Nombre, Email, Contraseña, Rol)
 pedidos_db: Tabla pedidos (Pedido JSON, Estado, Fecha)
