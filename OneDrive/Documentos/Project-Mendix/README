@@ -1,0 +1,76 @@
+📘 README — Project Mendix: School App
+📌 Overview
+
+Este proyecto es una aplicación desarrollada en Mendix que simula el funcionamiento básico de un sistema escolar.
+Incluye gestión de maestros, alumnos, cursos y ubicaciones, con una pantalla principal (Home) que centraliza la navegación.
+
+El objetivo del proyecto es demostrar el uso de dominios, microflows, páginas, entidades y navegación dentro de Mendix para construir una aplicación funcional y escalable.
+
+🏫 Main Features
+👩‍🏫 Teacher
+
+Crear, editar y eliminar maestros
+
+Ver lista de maestros
+
+Asociarlos con cursos
+
+👨‍🎓 Trainee (Students)
+
+Registro de estudiantes
+
+Administración del perfil
+
+Relación con cursos inscritos
+
+📍 Location
+
+Gestión de ubicaciones donde se imparten cursos
+
+Uso en la asignación de maestros y grupos
+
+📚 Courses
+
+Creación y administración de cursos
+
+Relación con maestros y estudiantes
+
+Visualización completa de información del curso
+
+🏠 Home Page
+
+Punto central de navegación
+
+Accesos directos a cada módulo
+
+Interfaz amigable y estructurada
+
+🧩 Tecnologías Utilizadas
+
+Mendix 11.0.0
+
+Microflows para lógica del negocio
+
+Domain Model con entidades relacionadas
+
+Widgets y UI nativa de Mendix
+
+🗂️ Estructura del Proyecto
+Project-Mendix/
+ ├── pages/
+ │    ├── home/
+ │    ├── teacher/
+ │    ├── trainee/
+ │    ├── courses/
+ │    └── location/
+ ├── domain-model/
+ ├── microflows/
+ └── resources/
+
+🚀 Objetivo del Proyecto
+
+Este proyecto forma parte de un ejercicio práctico para aprender Mendix, aplicando conceptos de desarrollo low-code para crear una aplicación completa y funcional basada en un entorno escolar.
+
+📄 Licencia
+
+Este proyecto está disponible solo para fines educativos.
