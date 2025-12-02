@@ -1,0 +1,60 @@
+{
+  "RuntimeVersion": "11.3.0.80734",
+  "ProjectID": "8262dfd4-05f4-48dc-bb3a-39e3fd75d1d2",
+  "ProjectName": "LearnNow Training Management 1",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "JavaVersion": 21,
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "4426e068-1d93-46ac-af81-24621d9ebaa0"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "Teacher"
+    },
+    "4426e068-1d93-46ac-af81-24621d9ebaa0": {
+      "Name": "Trainee"
+    }
+  },
+  "Constants": [
+    {
+      "Name": "FeedbackModule.LocalStorageKey",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "mxfeedback-form-data"
+    }
+  ],
+  "ScheduledEvents": [],
+  "Languages": [
+    "en_US"
+  ],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    }
+  ]
+}
