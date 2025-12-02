@@ -1,0 +1,234 @@
+import { createElement } from "react";
+const React = { createElement };
+
+import { PageFragment } from "mendix/PageFragment";
+import { ActionProperty } from "mendix/ActionProperty";
+import { DatabaseObjectListProperty } from "mendix/DatabaseObjectListProperty";
+import { ExpressionProperty } from "mendix/ExpressionProperty";
+import { ListActionProperty } from "mendix/ListActionProperty";
+import { TemplatedWidgetProperty } from "mendix/TemplatedWidgetProperty";
+import { TextProperty } from "mendix/TextProperty";
+import { WebIconProperty } from "mendix/WebIconProperty";
+
+import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
+import { Container } from "mendix/widgets/web/Container";
+import { Div } from "mendix/widgets/web/Div";
+import * as GalleryWidgetModule from "C:/Users/Admin/Mendix/LearnNow Training management-main/deployment/web/widgets/com/mendix/widget/web/gallery/Gallery.mjs";
+const Gallery = Object.getOwnPropertyDescriptor(GalleryWidgetModule, "Gallery")?.value || Object.getOwnPropertyDescriptor(GalleryWidgetModule, "default")?.value;   
+import { Text } from "mendix/widgets/web/Text";
+import { addEnumerations, asPluginWidgets, t } from "mendix";
+
+import { content as parentContent } from "../layouts/Atlas_Core.Atlas_TopBar.js";
+
+const { $Div, $Container, $Text, $Gallery, $ActionButton, $ConditionalVisibilityWrapper } = asPluginWidgets({ Div, Container, Text, Gallery, ActionButton, ConditionalVisibilityWrapper });
+
+const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
+    <$Div key="p.MyFirstModule.Trainee_Overview.layoutGrid2"
+        $widgetId="p.MyFirstModule.Trainee_Overview.layoutGrid2"
+        class={"mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
+        style={undefined}
+        content={[
+            <$Div key="p.MyFirstModule.Trainee_Overview.layoutGrid2$row0"
+                $widgetId="p.MyFirstModule.Trainee_Overview.layoutGrid2$row0"
+                class={"row"}
+                style={undefined}
+                content={[
+                    <$Div key="p.MyFirstModule.Trainee_Overview.layoutGrid2$row0$column0"
+                        $widgetId="p.MyFirstModule.Trainee_Overview.layoutGrid2$row0$column0"
+                        class={"col-lg col-md col"}
+                        style={undefined}
+                        content={[
+                            <$Container key="p.MyFirstModule.Trainee_Overview.container1"
+                                $widgetId="p.MyFirstModule.Trainee_Overview.container1"
+                                class={"mx-name-container1 pageheader spacing-outer-bottom-large"}
+                                style={undefined}
+                                renderMode={"div"}
+                                onClick={undefined}
+                                content={[
+                                    <$Text key="p.MyFirstModule.Trainee_Overview.text40"
+                                        $widgetId="p.MyFirstModule.Trainee_Overview.text40"
+                                        class={"mx-name-text40 pageheader-title spacing-outer-bottom"}
+                                        style={undefined}
+                                        caption={t([
+                                            ExpressionProperty({
+                                                "expression": { "expr": { "type": "literal", "value": " Trainee Overview" }, "args": {} }
+                                            })
+                                        ])}
+                                        renderMode={"h1"} />,
+                                    <$Text key="p.MyFirstModule.Trainee_Overview.text39"
+                                        $widgetId="p.MyFirstModule.Trainee_Overview.text39"
+                                        class={"mx-name-text39 pageheader-subtitle text-detail spacing-outer-bottom-none"}
+                                        style={undefined}
+                                        caption={t([
+                                            ExpressionProperty({
+                                                "expression": { "expr": { "type": "literal", "value": "Supporting text" }, "args": {} }
+                                            })
+                                        ])}
+                                        renderMode={"p"} />
+                                ]}
+                                ariaHidden={false} />,
+                            <$Gallery key="p.MyFirstModule.Trainee_Overview.gallery1"
+                                $widgetId="p.MyFirstModule.Trainee_Overview.gallery1"
+                                filtersPlaceholder={undefined}
+                                datasource={DatabaseObjectListProperty({
+                                    "dataSourceId": "p.0",
+                                    "entity": "MyFirstModule.Trainee",
+                                    "operationId": "Q5erAhjfklyehxw4k2RwEw",
+                                    "sort": []
+                                })}
+                                itemSelectionMode={"clear"}
+                                content={TemplatedWidgetProperty({
+                                    "dataSourceId": "p.0",
+                                    "editable": false,
+                                    "children": () => [
+                                        <$Text key="p.MyFirstModule.Trainee_Overview.text1"
+                                            $widgetId="p.MyFirstModule.Trainee_Overview.text1"
+                                            class={"mx-name-text1"}
+                                            style={undefined}
+                                            caption={t([
+                                                ExpressionProperty({
+                                                    "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "function", "name": "+", "parameters": [ { "type": "function", "name": "+", "parameters": [ { "type": "function", "name": "+", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Name" }, { "type": "literal", "value": "\r\nAdress::" } ] }, { "type": "variable", "variable": "currentObject", "path": "address" } ] }, { "type": "literal", "value": "\r\nEmail Adress:" } ] }, { "type": "variable", "variable": "currentObject", "path": "EmailAddress" } ] }, "args": { "currentObject": { "widget": "p.MyFirstModule.Trainee_Overview.gallery1", "source": "object" } } }
+                                                })
+                                            ])}
+                                            renderMode={"span"} />,
+                                        <$ActionButton key="p.MyFirstModule.Trainee_Overview.actionButton2"
+                                            $widgetId="p.MyFirstModule.Trainee_Overview.actionButton2"
+                                            buttonId={"p.MyFirstModule.Trainee_Overview.actionButton2"}
+                                            class={"mx-name-actionButton2"}
+                                            style={undefined}
+                                            tabIndex={undefined}
+                                            renderType={"button"}
+                                            role={undefined}
+                                            buttonClass={"btn-danger"}
+                                            caption={t([
+                                                ExpressionProperty({
+                                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                })
+                                            ])}
+                                            tooltip={TextProperty({
+                                                "value": t([
+                                                    ""
+                                                ])
+                                            })}
+                                            icon={WebIconProperty({
+                                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                                            })}
+                                            action={ActionProperty({
+                                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p.MyFirstModule.Trainee_Overview.gallery1", "source": "object" } }, "config": { "closePage": true, "operationId": "DLx0kyTvX1eAL2lJYzn58A" }, "disabledDuringExecution": true },
+                                                "abortOnServerValidation": true
+                                            })} />
+                                    ]
+                                })}
+                                desktopItems={1}
+                                tabletItems={1}
+                                phoneItems={1}
+                                pageSize={20}
+                                pagination={"buttons"}
+                                pagingPosition={"below"}
+                                showPagingButtons={"always"}
+                                showTotalCount={false}
+                                showEmptyPlaceholder={"none"}
+                                emptyPlaceholder={undefined}
+                                itemClass={undefined}
+                                onClickTrigger={"single"}
+                                onClick={ListActionProperty({
+                                    "action": { "type": "openPage", "argMap": { "param$Trainee": { "widget": "p.MyFirstModule.Trainee_Overview.gallery1", "source": "object" } }, "config": { "name": "MyFirstModule/Trainee_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator" ] }, "disabledDuringExecution": false },
+                                    "abortOnServerValidation": false,
+                                    "dataSourceId": "p.0",
+                                    "argumentTypes": { }
+                                })}
+                                onSelectionChange={undefined}
+                                filterSectionTitle={t([
+                                    ExpressionProperty({
+                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                    })
+                                ])}
+                                emptyMessageTitle={t([
+                                    ExpressionProperty({
+                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                    })
+                                ])}
+                                ariaLabelListBox={t([
+                                    ExpressionProperty({
+                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                    })
+                                ])}
+                                ariaLabelItem={t([
+                                    undefined
+                                ])}
+                                class={"mx-name-gallery1"}
+                                style={undefined}
+                                tabIndex={undefined} />
+                        ]} />,
+                    <$Div key="p.MyFirstModule.Trainee_Overview.layoutGrid2$row0$column1"
+                        $widgetId="p.MyFirstModule.Trainee_Overview.layoutGrid2$row0$column1"
+                        class={"col-lg-auto col-md-auto col-auto"}
+                        style={undefined}
+                        content={[
+                            <$ConditionalVisibilityWrapper key="p.MyFirstModule.Trainee_Overview.actionButton1$visibility"
+                                $widgetId="p.MyFirstModule.Trainee_Overview.actionButton1$visibility"
+                                visible={ExpressionProperty({
+                                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "args": {} }
+                                })}
+                                contents={[
+                                    <$ActionButton key="p.MyFirstModule.Trainee_Overview.actionButton1"
+                                        $widgetId="p.MyFirstModule.Trainee_Overview.actionButton1"
+                                        buttonId={"p.MyFirstModule.Trainee_Overview.actionButton1"}
+                                        class={"mx-name-actionButton1"}
+                                        style={undefined}
+                                        tabIndex={undefined}
+                                        renderType={"button"}
+                                        role={undefined}
+                                        buttonClass={"btn-success"}
+                                        caption={t([
+                                            ExpressionProperty({
+                                                "expression": { "expr": { "type": "literal", "value": "New" }, "args": {} }
+                                            })
+                                        ])}
+                                        tooltip={TextProperty({
+                                            "value": t([
+                                                ""
+                                            ])
+                                        })}
+                                        icon={undefined}
+                                        action={ActionProperty({
+                                            "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Trainee", "operationId": "3wY0EX+QXF2vy4GWTq6qMA", "pageSettings": { "name": "MyFirstModule/Trainee_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator" ] }, "allowedRoles": [ "Administrator" ], "objectParameter": "param$Trainee" }, "disabledDuringExecution": true },
+                                            "abortOnServerValidation": true
+                                        })} />
+                                ]} />
+                        ]} />
+                ]} />,
+            <$Div key="p.MyFirstModule.Trainee_Overview.layoutGrid2$row1"
+                $widgetId="p.MyFirstModule.Trainee_Overview.layoutGrid2$row1"
+                class={"row"}
+                style={undefined}
+                content={[
+                    <$Div key="p.MyFirstModule.Trainee_Overview.layoutGrid2$row1$column0"
+                        $widgetId="p.MyFirstModule.Trainee_Overview.layoutGrid2$row1$column0"
+                        class={"col-lg col-md col"}
+                        style={undefined}
+                        content={[
+                            <$Container key="p.MyFirstModule.Trainee_Overview.container2"
+                                $widgetId="p.MyFirstModule.Trainee_Overview.container2"
+                                class={"mx-name-container2 background-white"}
+                                style={undefined}
+                                renderMode={"div"}
+                                onClick={undefined}
+                                content={undefined}
+                                ariaHidden={false} />
+                        ]} />
+                ]} />
+        ]} />
+]}</PageFragment>);
+
+export const title = t([
+    "Page"
+]);
+
+export const classes = "layout-atlas layout-atlas-responsive-topbar";
+
+export const style = {};
+export const content = { ...parentContent,
+    "Atlas_Core.Atlas_TopBar.Main": region$Main,
+};

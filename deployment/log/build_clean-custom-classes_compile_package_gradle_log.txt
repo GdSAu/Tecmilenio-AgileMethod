@@ -1,0 +1,156 @@
+Initialized native services in: C:\Users\Admin\.gradle\native
+Initialized jansi services in: C:\Users\Admin\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot, JAVA_VERSION=21.0.5, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.5+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.5+11-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+The client will now receive all logging from the daemon (pid: 7604). The daemon log file: C:\Users\Admin\.gradle\daemon\8.5\daemon-7604.out.log
+Starting 4th build in daemon [uptime: 3 mins 5.112 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 15% of 384 MiB]
+Using 8 worker leases.
+Now considering [C:\Users\Admin\Mendix\LearnNow Training management-main\deployment] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file 'C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\build.gradle'.
+All projects evaluated.
+Task name matched 'clean-custom-classes'
+file or directory 'C:\Users\Admin\Mendix\LearnNow Training management-main\vendorlib', not found
+Task name matched 'compile'
+Task name matched 'package'
+Selected primary task 'clean-custom-classes' from project :
+Selected primary task 'compile' from project :
+Selected primary task 'package' from project :
+Tasks to be executed: [task ':clean-custom-classes', task ':compile', task ':package']
+Tasks that were excluded: []
+Resolve mutations for :clean-custom-classes (Thread[#132,Execution worker,5,main]) started.
+:clean-custom-classes (Thread[#132,Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[#131,included builds,5,main]) started.
+destroyer locations for task group 1 (Thread[#131,included builds,5,main]) started.
+
+> Task :clean-custom-classes
+Caching disabled for task ':clean-custom-classes' because:
+  Build cache is disabled
+Task ':clean-custom-classes' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :compile (Thread[#132,Execution worker,5,main]) started.
+:compile (Thread[#132,Execution worker,5,main]) started.
+
+> Task :compile
+Caching disabled for task ':compile' because:
+  Build cache is disabled
+Task ':compile' is not up-to-date because:
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\administration has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\administration\proxies has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\atlas_web_content has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\datawidgets has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\feedbackmodule has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\fileuploader has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\myfirstmodule has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\nanoflowcommons has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\system has been removed.
+  Output property 'destinationDirectory' file C:\Users\Admin\Mendix\LearnNow Training management-main\deployment\run\bin\webactions has been removed.
+The input changes require a full rebuild for incremental task ':compile'.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\administration\proxies\Account.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\administration\proxies\AccountPasswordData.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\administration\proxies\microflows\Microflows.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\atlas_web_content\proxies\LoginContext.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\datawidgets\proxies\Filter_Operators.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\actions\ValidateEmail.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\actions\XSS_Sanitizer.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\proxies\constants\Constants.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\proxies\Feedback.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\proxies\LogNodes.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\proxies\microflows\Microflows.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\proxies\ResponseHelper.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\feedbackmodule\proxies\TranslationLanguages.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\fileuploader\proxies\FileUploadContext.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\fileuploader\proxies\UploadedFile.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\fileuploader\proxies\UploadedImage.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\myfirstmodule\proxies\Course.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\myfirstmodule\proxies\Location.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\myfirstmodule\proxies\microflows\Microflows.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\myfirstmodule\proxies\Registration.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\myfirstmodule\proxies\Teacher.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\myfirstmodule\proxies\Trainee.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\myfirstmodule\proxies\TrainingEvent.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\nanoflowcommons\proxies\Enum_DistanceUnit.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\nanoflowcommons\proxies\GeocodingProvider.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\nanoflowcommons\proxies\Geolocation.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\nanoflowcommons\proxies\Platform.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\nanoflowcommons\proxies\Position.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\actions\VerifyPassword.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\ConsumedODataConfiguration.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\ContextType.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\DeviceType.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\Error.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\EventStatus.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\FileDocument.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\HttpHeader.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\HttpMessage.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\HttpRequest.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\HttpResponse.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\Image.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\Language.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\microflows\Microflows.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\ODataResponse.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\Paging.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\ProcessedQueueTask.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\ProxyConfiguration.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\QueuedTask.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\QueueTaskStatus.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\ScheduledEventInformation.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\Session.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\SoapFault.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\SynchronizationError.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\SynchronizationErrorFile.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\TaskQueueToken.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\TimeZone.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\TokenInformation.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\User.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\UserReportInfo.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\UserRole.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\UserType.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\Workflow.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowActivityDetails.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowActivityExecutionState.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowActivityRecord.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowActivityType.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowCurrentActivity.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowCurrentActivityAction.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowDefinition.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowEvent.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowEventType.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowJumpToDetails.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowRecord.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowState.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowUserTask.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowUserTaskCompletionType.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowUserTaskDefinition.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowUserTaskOutcome.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\WorkflowUserTaskState.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\proxies\XASInstance.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\system\UserActionsRegistrar.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+Cannot infer source root(s) for source `file 'C:\Users\Admin\Mendix\LearnNow Training management-main\javasource\webactions\proxies\PictureQuality.java'`. Supported types are `File` (directories only), `DirectoryTree` and `SourceDirectorySet`.
+file or directory 'C:\Users\Admin\Mendix\LearnNow Training management-main\vendorlib', not found
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain 'C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot'.
+Compiling with JDK Java compiler API.
+Class dependency analysis for incremental compilation took 0.135 secs.
+Created classpath snapshot for incremental compilation in 0.005 secs.
+Resolve mutations for :package (Thread[#132,Execution worker,5,main]) started.
+:package (Thread[#132,Execution worker,5,main]) started.
+
+> Task :package UP-TO-DATE
+Caching disabled for task ':package' because:
+  Build cache is disabled
+Skipping task ':package' as it is up-to-date.
+
+BUILD SUCCESSFUL in 3s
+3 actionable tasks: 2 executed, 1 up-to-date
+Watched directory hierarchies: [C:\Users\Admin\Mendix\LearnNow Training management-main\deployment]
+
+
+
