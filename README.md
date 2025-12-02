@@ -1,0 +1,1 @@
+En este avance del proyecto presento la estructura general y las páginas principales de la aplicación LearnNow Training Management. El objetivo de esta aplicación es administrar cursos, maestros, alumnos y eventos de capacitación de manera centralizada. A continuación, detallo las vistas que he diseñado y configurado hasta el momento.
