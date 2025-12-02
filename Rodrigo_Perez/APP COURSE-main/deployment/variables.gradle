@@ -1,0 +1,34 @@
+ext {
+	mendixJavaVersion = 21
+	mendixInstallDir = "C:/Program Files/Mendix/11.3.0.80734"
+	projectName = "App"
+	projectSafeName = "APP_COURSE_main"
+	mendixProjectDir = "C:/Users/P4/Mendix/APP COURSE-main"
+	deploymentDir = "C:/Users/P4/Mendix/APP COURSE-main/deployment"
+	dataSnapshotFile = "C:/Users/P4/Mendix/APP COURSE-main/data-snapshot.zip"
+	dataDir = "C:/Users/P4/Mendix/APP COURSE-main/deployment/data"
+	extractDataSnapshot = false
+	templatesDir = "C:/Program Files/Mendix/11.3.0.80734/modeler/runtemplates"
+	runDir = "run"
+	compileTargetDir = "run/bin"
+	deploymentDirName = "deployment"
+	modelDirName = "model"
+	resourcesDirName = "resources"
+	javaSourceDirName = "javasource"
+	libDirName = "lib"
+	userlibDirName = "userlib"
+	vendorlibDirName = "vendorlib"
+	generateFullDebugInfo = false
+	excludedRunTemplatesFiles = [
+		"**/*.template"
+	]
+	publicApiJars = [
+		"runtime/bundles/com.mendix.json.jar",
+		"runtime/bundles/com.mendix.logging-api.jar",
+		"runtime/bundles/com.mendix.public-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-servlet-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-javax-websocket-api.jar"
+	]
+	excludedJars = []
+	protectedModules = []
+}
