@@ -1,10 +1,4 @@
 # Tecmilenio-AgileMethod
-
-
-Este repositorio tiene el objetivo de albergar los trabajos de los alumnos de la materia de Metodologías ágiles
-
 ## ¿Qué contiene este repositorio?
-* README.md
-* \<Folder con tu nombre>
-    - \<Todo el contenido de tu proyecto>
-	- README.md (Descripción de tu proyecto)
+Este repositorio contiene una aplicacion en la cual se aplicaron distintas funcionalidades y modificaciones a lo largo del curso de Mendix. 
+Contiene tanto workflows, configuraciones de seguridad asi como una interfaz totalmente funcional y probada.
